@@ -1,0 +1,16 @@
+/* прописуємо базові стилі */
+h1 {
+    color: darkblue;
+}
+
+h2 {
+    color: darkorchid;
+}
+
+p {
+    color: green;
+}
+
+div p {
+    background-color: rgb(33, 213, 60);
+}
