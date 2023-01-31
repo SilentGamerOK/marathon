@@ -1,16 +1,135 @@
-/* прописуємо базові стилі */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Heebo', sans-serif;
+    color: #21243D;
+}
+
+/* 
+header {
+
+}
+ */
+
+/* контейнер сторінки індекс */
+.container {
+    max-width: 860px;
+    margin: 0 auto;
+}
+
 h1 {
-    color: darkblue;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 60px;   
 }
 
 h2 {
-    color: darkorchid;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 44px;
 }
 
 p {
-    color: green;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin: 0;
 }
 
-div p {
-    background-color: rgb(33, 213, 60);
+
+
+/* закінчення загальних стилів */
+
+/* початок стилів хедер */
+
+.menu {
+    display: flex;
+    justify-content: flex-end;
+    max-width: 1150px;
+    margin: 0 auto;
+    padding: 0 45px;
+    margin-bottom: 100px;
 }
+
+.menu a {
+    padding:  15px;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.about-user {
+    display: flex;
+    justify-content: space-between;
+    border-top: 34px solid #C4C4C4;
+}
+
+.about-user div {
+    width: 500px;
+}
+
+.about-user img {
+    width: 243px;
+    height: 243px;
+}
+
+.btn {
+    background: #FF6464;
+    border-radius: 2px;
+    border: none;
+    color: white;
+    font-size: 20px;
+    padding: 12px 20px;
+    margin-top: 35px;
+}
+
+/* кінець стилів хедер */
+
+/* початок опису стилів сторінки блог */
+
+/* контейнер сторінки блог */
+.blog-container {
+    max-width: 680px;
+    margin: 0 auto;
+}
+
+.date-blog {
+    width: 375px;
+    display: flex;
+    margin-bottom: 12px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+}
+
+.date {
+    border-right: 1px solid #000000;
+    padding-right: 20px;
+}
+
+.point {
+    color: #8695A4;
+    margin-left: 20px;
+}
+
+.h2-title {
+    margin: 0;
+    margin-bottom: 12px;
+}
+
+.h1-blog {
+    margin: 0;
+    margin-bottom: 50px;
+
+}
+
+.blog-title {
+    border-bottom: 1px solid #E0E0E0;
+    padding-bottom: 28px;
+    margin-bottom: 30px;
+}
+
+/* кінець опису стилів сторінки блог */
