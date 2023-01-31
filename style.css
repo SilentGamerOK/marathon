@@ -132,4 +132,8 @@ p {
     margin-bottom: 30px;
 }
 
+.menu .blog-active {
+    color: #FF6464;
+}
+
 /* кінець опису стилів сторінки блог */
