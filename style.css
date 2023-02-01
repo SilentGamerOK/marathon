@@ -147,6 +147,7 @@ p {
     border: none;
     background-image: url('images/menu.svg');
     background-color: transparent;
+    cursor: pointer;
 }
 
 /* адаптивний варіант */
@@ -197,8 +198,7 @@ p {
     }
 
     .blog-container {
-        max-width: 339px;
-        align-items: flex-start;
+        max-width: 339px;   
     }
 
     .h1-blog {
