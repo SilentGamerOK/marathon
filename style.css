@@ -137,3 +137,99 @@ p {
 }
 
 /* кінець опису стилів сторінки блог */
+
+
+.burger {
+    width: 30px;
+    height: 20px;
+    margin-left: auto;
+    display: none;
+    border: none;
+    background-image: url('images/menu.svg');
+    background-color: transparent;
+}
+
+/* адаптивний варіант */
+@media (max-width: 768px) {
+    .about-user {
+        flex-direction: column;
+        align-items: center;
+        border: none;
+    }
+
+    .about-user div {
+        order: 1;
+        text-align: center;
+        width: auto;
+    }
+
+    .about-user img {
+        width: 175px;
+        height: 175px;
+        margin-bottom: 50px;
+        box-shadow: -3px 10px 0 #EDF7FA;
+        border-radius: 50%;
+    }
+
+    .burger {
+        display: block;
+    }
+
+    h1 {
+        font-size: 32px;
+        line-height: 40px;
+        
+    }
+
+    p {
+        font-size: 16px;
+        line-height: 24px;
+        
+    }
+
+    .menu a {
+        display: none;
+    }
+
+    .menu {
+        padding-top: 20px;
+        margin-bottom: 34px;
+    }
+
+    .blog-container {
+        max-width: 339px;
+        align-items: flex-start;
+    }
+
+    .h1-blog {
+        font-size: 30px;
+        line-height: 60px;
+        margin-bottom: 24px;
+    }
+
+    .h2-title {
+        font-size: 26px;
+        line-height: 38px;
+    }
+
+    .date-blog {
+        font-size: 16px;
+        line-height: 24px;
+        width: 275px;
+        margin-bottom: 17px;
+
+    }
+
+    .point {
+        margin-left: 16px;
+    }
+
+    .date {
+        padding-right: 16px;
+    }
+
+    .blog-title {
+        padding-bottom: 24px;
+        margin-bottom: 18px;
+    }
+}
