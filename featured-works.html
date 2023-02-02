@@ -1,16 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <!-- підключаємо css -->
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <!-- підключаємо css -->
+        <link rel="stylesheet" href="style.css">
+        <!-- підключення шрифтів -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        
+        <header>
+            <nav class="menu">
+                <button class="burger"></button>
+                <a href="blog.html">Blog</a>
+                <a class="active" href="featured-works.html">Works</a>
+                <a href="">Contact</a>
+            </nav>
+        </header>
 
-   
+        <section>
+            <div class="work-container">
+                <h1 class="page-works">Works</h2>
+               
+                <div class="featured-works">
+                    <div class="work">
+                        <img src="images/1.jpg" alt="image1">
+                        <div class="description">
+                            <h3>Designing Dashboards</h3>
+                            <span class="badge">2020</span>
+                            <span class="point">Dashboard</span>
+                            <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="featured-works visible-any-work">
+                    <div class="work">
+                        <img src="images/2.jpg" alt="image1">
+                        <div class="description">
+                            <h3>Vibrant Portraits of 2020</h3>
+                            <span class="badge">2018</span>
+                            <span class="point">Illustration</span>
+                            <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="featured-works visible-any-work">
+                    <div class="work">
+                        <img src="images/3.jpg" alt="image1">
+                        <div class="description">
+                            <h3>36 Days of Malayalam type</h3>
+                            <span class="badge">2018</span>
+                            <span class="point">Typography</span>
+                            <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="featured-works visible-any-work">
+                    <div class="work">
+                        <img src="images/4.jpg" alt="image1">
+                        <div class="description">
+                            <h3>Components</h3>
+                            <span class="badge">2018</span>
+                            <span class="point">Components, Design</span>
+                            <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="featured-works visible-work">
+                    <div class="work">
+                        <img src="images/5.jpg" alt="image1">
+                        <div class="description">
+                            <h3>Designing Landing pages</h3>
+                            <span class="badge">2022</span>
+                            <span class="point">Website</span>
+                            <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                        </div>
+                    </div>
+                </div>
+    
+            </div>
+        </section>
 
 </body>
 </html>
