@@ -238,9 +238,7 @@ p {
 
 /* частина робіт на головній сторінці та окрема сторінка роботи */
 
-.featured-works {
-    /* border: 2px solid red */
-}
+
 
 .work {
     /* border: 2px solid blue; */
@@ -355,3 +353,80 @@ h3 {
 }
 
 /* кінець сторінки робіт та адаптиву */
+
+/* сторінки статей чи робіт */
+
+.article-page h1 {
+    font-size: 34px;
+    line-height: 50px;
+    max-width: 500px;
+}
+
+.article-container {
+    max-width: 681px;
+    margin: 0 auto;
+}
+
+.article-badge {
+    background: #FF7C7C;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 16px;
+    padding: 0 10px;
+    margin-right: 17px;
+    margin-bottom: 25px;
+    display: inline-block;
+}
+
+.artilce-topic {
+    font-size: 20px;
+
+}
+
+.article-page img {
+    width: 100%;
+    margin-bottom: 27px;
+}
+
+.article-page h2 {
+    font-size: 30px;
+    font-weight: bold;
+
+}
+
+.article-page h3 {
+    font-size: 24px;
+}
+
+.article-page p {
+    margin-bottom: 35px;
+}
+
+
+/* адаптив сторінок робіт */
+
+@media (max-width: 768px) {
+
+    .article-page h1 {
+        font-size: 30px;   
+    }
+    
+    .article-container {
+        max-width: 339px;
+    }
+
+    .artilce-topic {
+        font-size: 18px;   
+    }
+    
+    .article-page h2 {
+        font-size: 26px;
+    }
+    
+    .article-page h3 {
+        font-size: 20px;
+    }
+   
+
+}
