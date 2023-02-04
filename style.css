@@ -39,6 +39,10 @@ p {
     margin: 0;
 }
 
+h3 a {
+    text-decoration: none;
+    color: #21243D;
+}
 
 
 /* закінчення загальних стилів */
@@ -84,6 +88,7 @@ p {
     font-size: 20px;
     padding: 12px 20px;
     margin-top: 35px;
+    cursor: pointer;
 }
 
 /* кінець стилів хедер */
@@ -429,4 +434,50 @@ h3 {
     }
    
 
+}
+
+footer {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+footer p {
+    font-size: 14px;
+}
+
+.social {
+    width: 230px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+
+.social a {
+    width: 30px;
+    height: 30px;
+    margin-bottom: 25px;
+}
+
+.icons {
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.fb {
+    background-image: url('images/social/fb.svg');
+}
+
+.inst {
+    background-image: url('images/social/inst.svg');
+}
+
+.tw {
+    background-image: url('images/social/tw.svg');
+}
+
+.in {
+    background-image: url('images/social/linkedin.svg');
 }
